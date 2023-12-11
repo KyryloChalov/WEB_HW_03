@@ -6,12 +6,12 @@ part 1:
 sorting.py - сортування файлів у вказаному фолдері за розширеннями з використанням кількох потоків 
 
 виклик можливий як з командної строки:
-py sorting.py <path> <replace(optional>) 
+py sorting.py <path_folder> <replace(optional>) 
 
 так і з іншої програми в якості функції:
-sorting(<path>, <replace=None>)
+sorting(<path_folder>, <replace=None>)
 
-        path - фолдер для сортування 
+        path_folder - фолдер для сортування 
         replace - якщо встановлено "+" - файли з однаковими іменами буде перезаписано
 
 part 2:
